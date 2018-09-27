@@ -1,6 +1,15 @@
 
 // Font Family
-@import url('https://fonts.googleapis.com/css?family=Lato:400|Josefin+Sans:700');
+// @import url('https://fonts.googleapis.com/css?family=Lato:400|Josefin+Sans:700');
+@import url('../fonts/Swis721\ BlkCn\ BT\ Black\ Italic.ttf');
+@import url('../fonts/MyriadPro-Light.ttf');
+@import url('../fonts/MyriadPro-Regular.otf');
+@import url('../fonts/MyriadPro-Semibold.otf');
+
+@font-face {
+  font-family: 'Swis721 BlkCn BT';
+  src: url('../fonts/Swis721\ BlkCn\ BT\ Black\ Italic.ttf');
+}
 
 html{
   overflow-x: hidden;
@@ -9,7 +18,7 @@ body {
     background: #fff;
     font-size: 15px;
     font-weight: 400;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Myriad Pro Semibold', sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -23,13 +32,13 @@ body {
 h1, h2, h3, h4{
   font-size: 36px;
   font-weight: 700;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Swis721 BlkCn BT', sans-serif;
 }
 a{
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
-	transition: all 0.2s linear;
+  transition: all 0.2s linear;
 	&:hover{text-decoration: none;}
 	a:focus{
 	outline: none;
@@ -37,7 +46,7 @@ a{
 }
 p{
   font-weight: 400;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Myriad Pro Light', sans-serif;
   margin: 0px;
   font-size: 14px;
 }
@@ -45,13 +54,14 @@ ul,ol{
   list-style: outside none none;
   margin: 0;
   padding: 0;
+  font-family: 'Myriad Pro Semibold', sans-serif;
   li{
     list-style: none;
   }
 }
 .hero-heading {
 	font-size: 40px;
-	font-weight: 700;
+	font-family: 'Myriad Pro Semibold', sans-serif;
 	color: #fff;
 	text-transform: capitalize;
 	line-height: 70px;
@@ -59,15 +69,15 @@ ul,ol{
 }
 .hero-sub-heading {
 	font-size: 20px;
-	font-weight: 400;
+	font-family: 'Myriad Pro Light', sans-serif;
 	color: darken(#fff, 10%);
 	line-height: 45px;
 	letter-spacing: 0.1rem;
 }
-.section-titile-bg {
+.section-title-bg {
     display: inline;
     font-size: 115px;
-    font-weight: 700;
+    font-family: 'Myriad Pro Semibold', sans-serif;
     height: 100%;
     left: -173px;
     opacity: 0.1;
@@ -78,8 +88,8 @@ ul,ol{
 }
 .section-title-header{
   p{
-    text: center;
-    font-weight: 400;
+    text-align: center;
+    font-family: 'Myriad Pro Light', sans-serif;
     line-height: 26px;
     padding-bottom: 36px;
   }
@@ -89,7 +99,7 @@ ul,ol{
   color: #212121;
   line-height: 52px;
   padding-bottom: 20px;
-  font-weight: 700;
+  font-family: 'Myriad Pro Semibold', sans-serif;
   text-align: center;
   text-transform: uppercase;
   position: relative;
@@ -122,8 +132,8 @@ ul,ol{
 }
 .section-subcontent{
   font-size: 16px;
-  text: center;
-  font-weight: 400;
+  text-align: center;
+  font-family: 'Myriad Pro Light', sans-serif;
   line-height: 26px;
   padding-bottom: 36px;
 }
@@ -149,22 +159,22 @@ ul,ol{
 .subtitle {
 	font-size: 15px;
   margin-top: 20px;
-  font-weight: 500;
+  font-family: 'Myriad Pro Light', sans-serif;
   margin-bottom:10px;
 }
 .inner-title {
 	font-size: 24px;
-	font-weight: 700;
-	text-tranform: capitalize;
+	font-family: 'Myriad Pro Semibold', sans-serif;
+	text-transform: capitalize;
 }
 .page-tagline {
   font-size: 24px;
-  font-weight: 400;
+  font-family: 'Myriad Pro Light', sans-serif;
   color: #ddd;
 }
 .page-title {
   font-size: 62px;
-  font-weight: 700;
+  font-family: 'Myriad Pro Semibold', sans-serif;
   color: #fff;
 }
 $transition: all 0.3s ease-in-out;
@@ -198,7 +208,7 @@ $transition: all 0.3s ease-in-out;
   padding: 12px 20px;
   border-radius: 4px;
   cursor: pointer;
-  font-weight: 400;
+  font-family: 'Myriad Pro Semibold', sans-serif;
   color: #fff;
   text-transform: uppercase;
   -webkit-transition: all 0.2s linear;
@@ -222,7 +232,7 @@ $transition: all 0.3s ease-in-out;
   z-index: 1;
   &:hover{
     color: #fff;
-    background: #F50057;
+    background: #ff8519;
     box-shadow:  0 6px 22px rgba(0,0,0,0.1);
     transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;

@@ -1,0 +1,23 @@
+{
+  "name": "jobfair18",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass assets/scss/main.scss assets/css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilipMarkovski/jobfair18.git"
+  },
+  "author": "JobFair18",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FilipMarkovski/jobfair18/issues"
+  },
+  "homepage": "https://github.com/FilipMarkovski/jobfair18#readme"
+}
