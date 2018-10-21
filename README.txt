@@ -1,0 +1,3 @@
+Ljudi, da znate:
+Moracete da menjate iz scss-a stvari koje su vezane za css deo. Ja sam instalirao preko npm-a potrebne module  i preko njega cete koristiti dve komande. Ali pre svega toga, moracete da instalirate node.js i npm. Imate na netu kako da instalirate.
+Prvo, otvoricete dva terminala (ili command prompt/power shell na windows-u) i na oba treba da dodjete do foldera gde vam je kod (to je jobfair18 folder koliko se secam). U jednom terminalu cete ukucati "npm run compile:sass", a u drugom "live-server". Ako vam ne radi "live-server", ukucacete "npm install -g live-server" pa onda mozete da koristite "live-server" komandu
