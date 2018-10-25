@@ -1127,6 +1127,11 @@ a.back-to-top {
   -moz-transform: translateY(0px);
   transform: translateY(0px); }
 
+  /* Blog Area */
+#blog {
+  background: #f3f4f3; 
+}
+
 .blog-item {
   background-color: #fff;
   border-radius: 4px;
